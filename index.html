@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Challenge</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400&family=Karla:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&family=Roboto+Mono:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="rules-wrap">
+        <h2>Zasady gry:</h2>
+        <div class="rules">
+            <ol class="rules-list">
+                <li>Najpierw wybierz interesującą Cię długość tekstu do przepisania (krótki - ok. 15 słów, normalny -
+                    ok. 50 słów,
+                    długi - ok. 100 słów). Na ekranie wyświetli się losowy tekst wraz z polem tekstowym.</li>
+                <li>Aby rozpocząć wpisywanie, kliknij w pole tekstowe. Kliknięcie w pole tekstowe uruchomi zegar.
+                </li>
+                <li>Przepisz wylosowany tekst. Zegar zatrzyma się w momencie prawidłowego przepisania całego tekstu.
+                </li>
+                <li>Pamiętaj, że zegar zatrzyma się wyłącznie jeżeli przepisany tekst będzie w 100% odpowiadał
+                    wylosowanemu
+                    tekstowi - <strong>małe i wielkie litery, znaki interpunkcyjne i spacje mają
+                        znaczenie</strong>. Nie musisz używać klawisza "ENTER" aby przejść do nowej linii.
+                </li>
+                <li>Teksty
+                    pochodzą z dzieł polskiej literatury - "Pana Tadeusza" A. Mickiewicza,
+                    "Krzyżaków" i "Potopu" H. Sienkiewicza i "Lalki" B. Prusa.</li>
+            </ol>
+            <p>Udanej zabawy!</p>
+        </div>
+        <span class="hide"><i class="fas fa-times"></i></span>
+    </div>
+
+    <header>
+        <h1>Keyboard challenge</h1>
+    </header>
+
+    <div class="content-wrap">
+        <main>
+            <section class="text">
+                <h2>Twój tekst:</h2>
+                <p></p>
+            </section>
+            <section class="insert-text-wrap">
+                <h2>Rozpocznij pisanie<i class="fas fa-level-down-alt"></i></h2>
+                <textarea name="insert-text" id="insert-text" class="insert-text"></textarea>
+            </section>
+
+        </main>
+        <aside>
+
+            <section class="mode">
+                <h2>Wybierz długość tekstu:</h2>
+                <ul class="mode-list">
+                    <li class="short">Krótki</li>
+                    <li class="normal">Normalny</li>
+                    <li class="long">Długi</li>
+                </ul>
+            </section>
+
+            <section class="interface-wrap">
+                <div class="timer">--.--</div>
+                <div class="timer-big">Twój czas:<p>00.00</p>
+                    <p class="record"></p>
+                    <div class="repeat">Powtórz tekst<i class="fas fa-redo"></i></div>
+                </div>
+                <div class="score">
+                    <h2>Najlepsze wyniki:</h2>
+                    <ul class="score-list">
+                        <li class="score-short">Tekst krótki: <span></span></li>
+                        <li class="score-normal">Tekst normalny: <span></span></li>
+                        <li class="score-long">Tekst długi: <span></span></li>
+                        <li class="reset">Wyczyść<i class="fas fa-sync"></i></li>
+                    </ul>
+                </div>
+            </section>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="rules-btn">Zasady gry</div>&copy; Copyright G.Cz. 2020
+    </footer>
+
+    <section class="error">Aplikacja dostępna jest wyłącznie na urządzenia o rozdzielczości co najmniej 1280 x 720 px.
+        Przepraszamy.
+    </section>
+
+    <script src="https://kit.fontawesome.com/5ff2b12ca8.js" crossorigin="anonymous"></script>
+    <script src="js/texts.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
