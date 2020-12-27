@@ -37,6 +37,7 @@
     border: 2px solid black;
     box-shadow: 0 0 3px black;
     z-index: 1;
+    -webkit-animation: show 2s ease both;
     animation: show 2s ease both;
 }
 
@@ -130,6 +131,7 @@ main h2 {
     flex-direction: column;
     justify-content: center;
     flex-basis: 46%;
+    -webkit-animation: show 2s ease both;
     animation: show 2s ease both;
 }
 
@@ -148,6 +150,7 @@ main h2 {
     display: none;
     flex-direction: column;
     flex-basis: 46%;
+    -webkit-animation: show 2s ease both;
     animation: show 2s ease both;
 }
 
@@ -160,6 +163,7 @@ main h2 {
 }
 
 .insert-text-wrap h2 i {
+    -webkit-animation: fade 2s 1s linear infinite;
     animation: fade 2s 1s linear infinite;
 }
 
@@ -210,10 +214,12 @@ aside ul {
 .mode h2 {
     margin-bottom: 10px;
     font-size: 32px;
+    -webkit-animation: fade-mode 5s linear infinite;
     animation: fade-mode 5s linear infinite;
 }
 
 .mode h2.animate-stop {
+    -webkit-animation: none;
     animation: none;
 }
 
@@ -277,10 +283,13 @@ ul.mode-list li:hover {
     font-size: 50px;
     text-transform: uppercase;
     font-weight: bold;
+    -webkit-animation: fade-record .7s linear infinite;
     animation: fade-record .7s linear infinite;
 }
 
 .timer-big .repeat {
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     margin-top: 50px;
     font-size: 30px;
@@ -325,6 +334,8 @@ ul.score-list li {
 }
 
 ul.score-list li.reset {
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     margin-top: 15px;
     font-weight: bold;
@@ -421,6 +432,40 @@ footer {
     }
 }
 
+@-webkit-keyframes fade-record {
+    0% {
+        opacity: 1;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    49% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    74% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes fade-record {
     0% {
         opacity: 1;
@@ -448,6 +493,24 @@ footer {
 
     75% {
         opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade-mode {
+    0% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0;
     }
 
     100% {
@@ -547,6 +610,7 @@ footer {
     .mode h2 {
         margin-bottom: 10px;
         font-size: 28px;
+        -webkit-animation: fade-mode 5s linear infinite;
         animation: fade-mode 5s linear infinite;
     }
 
