@@ -6,9 +6,6 @@
 
 :root {
     --cousine: 'Cousine', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
-    --karla: 'Karla', sans-serif;
-    --poppins: 'Poppins', sans-serif;
 }
 
 /* >>>> RULES */
@@ -68,7 +65,6 @@
     justify-content: center;
     top: 1.5%;
     right: 3%;
-    /* transform: translate(50%, -50%); */
     border-radius: 50%;
     font-size: 30px;
     cursor: pointer;
@@ -626,6 +622,8 @@ footer {
         text-align: center;
     }
 }
+
+/* >>>>> MEDIA QUERIES <<<<< */
 
 @media (max-width: 1259px) {
 

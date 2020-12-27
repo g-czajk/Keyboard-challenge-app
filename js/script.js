@@ -1,3 +1,5 @@
+// GENERAL VARIABLES
+
 const btnTxtShort = document.querySelector('.short');
 const btnTxtNormal = document.querySelector('.normal');
 const btnTxtLong = document.querySelector('.long');
@@ -217,7 +219,6 @@ const stopFunction = () => {
     if (text.textContent === textArea.value) {
         clearInterval(idInterval);
         textArea.value = '';
-        // text.textContent = '';
         time = 0;
         clickedMenu = 0;
         timeDisplay.classList.add('fade');
