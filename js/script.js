@@ -47,8 +47,10 @@ if (data) {
     }
 }
 
+// REMOVE APP DATA FROM LOCAL STORAGE
+
 reset.addEventListener("click", function () {
-    localStorage.clear();
+    localStorage.removeItem("records");
     location.reload();
 });
 
@@ -215,7 +217,7 @@ textArea.addEventListener('blur', () => {
     timeDisplay.textContent = '--.--';
 })
 
-const stopFunction = () => {
+const stopTimer = () => {
     if (text.textContent === textArea.value) {
         clearInterval(idInterval);
         textArea.value = '';
@@ -256,7 +258,7 @@ const stopFunction = () => {
     }
 }
 
-textArea.addEventListener('input', stopFunction);
+textArea.addEventListener('input', stopTimer);
 
 // REPEAT TEXT
 
