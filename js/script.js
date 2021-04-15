@@ -153,7 +153,7 @@ const insertText = (targetElement, btnType) => {
 
     // alert when ran out of texts in the category
 
-    if (shortTextArray.length == 0) {
+    if (currentArray.length == 0) {
         alert(
             "To już ostatni tekst o tej długości w bazie. Aby grać dalej, wybierz tekst o innej długości lub odśwież stronę."
         );
