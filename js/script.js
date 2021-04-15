@@ -271,16 +271,9 @@ const repeatText = () => {
     textPanel.classList.add("active");
     textAreaPanel.classList.add("active");
     document.querySelector(".mode h2").classList.add("animate-stop");
-    if (textType === "short") {
-        btnTxtShort.style.transform = "translateY(30%) scale(1.2)";
-        clickedMenu = true;
-    } else if (textType === "normal") {
-        btnTxtNormal.style.transform = "translateY(30%) scale(1.2)";
-        clickedMenu = true;
-    } else if (textType === "long") {
-        btnTxtLong.style.transform = "translateY(30%) scale(1.2)";
-        clickedMenu = true;
-    }
+    document.querySelector(`[data-type="${textType}"]`).style.transform =
+        "translateY(30%) scale(1.2)";
+    clickedMenu = true;
 };
 
 btnRepeat.addEventListener("click", repeatText);
