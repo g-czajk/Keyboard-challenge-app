@@ -3,9 +3,10 @@ import {
     faSync,
     faTimes,
     faLevelDownAlt,
+    faRedo,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faSync, faTimes, faLevelDownAlt);
+library.add(faSync, faTimes, faLevelDownAlt, faRedo);
 
 dom.i2svg();
 
