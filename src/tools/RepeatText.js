@@ -3,6 +3,7 @@ import {
     timeDisplayBig,
     textPanel,
     textAreaPanel,
+    record,
 } from "./Variables";
 
 const repeatText = (clickedMenu, textType) => {
@@ -10,6 +11,7 @@ const repeatText = (clickedMenu, textType) => {
     timeDisplayBig.classList.remove("show");
     textPanel.classList.add("active");
     textAreaPanel.classList.add("active");
+    record.textContent = "";
     document.querySelector(".mode h2").classList.add("animate-stop");
     document.querySelector(`[data-type="${textType}"]`).style.transform =
         "translateY(30%) scale(1.2)";
