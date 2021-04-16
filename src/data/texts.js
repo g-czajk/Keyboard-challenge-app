@@ -2,7 +2,7 @@
 // >>>>>>>>>>>>>>>>>>>>>SHORT TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<
 // >>>>>>>>>>>>>>>>>>>>>SHORT TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<
 
-const shortTextArray = [
+export const shortTextArray = [
     "Przecież i bez tych przypraw potrawą nie lada Jest bigos, bo się z jarzyn dobrych sztucznie składa.",
     "Pan Wojski z Tadeuszem idą pod las drogą, I jeszcze się do woli nagadać nie mogą.",
     "W ślad gospodarza wszystko ze żniwa i z boru, I z łąk, i z pastwisk razem wracało do dworu.",
@@ -58,7 +58,7 @@ const shortTextArray = [
 // >>>>>>>>>>>>>>>>>>>>>NORMAL TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<
 // >>>>>>>>>>>>>>>>>>>>>NORMAL TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<
 // >>>>>>>>>>>>>>>>>>>>>NORMAL TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<
-const normalTextArray = [
+export const normalTextArray = [
     "Tymczasem przenoś moją duszę utęsknioną Do tych pagórków leśnych, do tych łąk zielonych, Szeroko nad błękitnym Niemnem rozciągnionych; Do tych pól malowanych zbożem rozmaitem, Wyzłacanych pszenicą, posrebrzanych żytem; Gdzie bursztynowy świerzop, gryka jak śnieg biała, Gdzie panieńskim rumieńcem dzięcielina pała, A wszystko przepasane jakby wstęgą, miedzą Zieloną, na niej z rzadka ciche grusze siedzą.",
     "I widać z liczby kopic, co wzdłuż i wszerz smugów Świecą gęsto jak gwiazdy, widać z liczby pługów Orzących wcześnie łany ogromne ugoru, Czarnoziemne, zapewne należne do dworu, Uprawne dobrze na kształt ogrodowych grządek: Że w tym domu dostatek mieszka i porządek. Brama na wciąż otwarta przechodniom ogłasza, Że gościnna, i wszystkich w gościnę zaprasza.",
     "Dalej Jasiński, młodzian piękny i posępny; Obok Korsak, towarzysz jego nieodstępny: Stoją na szańcach Pragi, na stosach Moskali, Siekąc wrogów, a Praga już się wkoło pali. Nawet stary stojący zegar kurantowy W drewnianej szafie poznał, u wniścia alkowy; I z dziecinną radością pociągnął za sznurek, By stary Dąbrowskiego usłyszeć mazurek.",
@@ -114,7 +114,7 @@ const normalTextArray = [
 // >>>>>>>>>>>>>>>>>>>>>LONG TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<
 // >>>>>>>>>>>>>>>>>>>>>LONG TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<
 // >>>>>>>>>>>>>>>>>>>>>LONG TEXTS<<<<<<<<<<<<<<<<<<<<<<<<<
-const longTextArray = [
+export const longTextArray = [
     "Śród takich pól przed laty, nad brzegiem ruczaju, Na pagórku niewielkim, we brzozowym gaju, Stał dwór szlachecki, z drzewa, lecz podmurowany;Świeciły się z daleka pobielane ściany, Tym bielsze, że odbite od ciemnej zieleni Topoli, co go bronią od wiatrów jesieni. Dom mieszkalny niewielki, lecz zewsząd chędogi, I stodołę miał wielką, i przy niej trzy stogi Użątku, co pod strzechą zmieścić się nie może. Widać, że okolica obfita we zboże, I widać z liczby kopic, co wzdłuż i wszerz smugów Świecą gęsto jak gwiazdy, widać z liczby pługów Orzących wcześnie łany ogromne ugoru, Czarnoziemne, zapewne należne do dworu, Uprawne dobrze na kształt ogrodowych grządek: Że w tym domu dostatek mieszka i porządek.",
     "Właśnie dwukonną bryką wjechał młody panek I obiegłszy dziedziniec zawrócił przed ganek. Wysiadł z powozu; konie porzucone same, Szczypiąc trawę ciągnęły powoli pod bramę. We dworze pusto: bo drzwi od ganku zamknięto Zaszczepkami i kołkiem zaszczepki przetknięto. Podróżny do folwarku nie biegł sług zapytać, Odemknął, wbiegł do domu, pragnął go powitać. Dawno domu nie widział, bo w dalekim mieście Kończył nauki, końca doczekał nareszcie. Wbiega i okiem chciwie ściany starodawne Ogląda czule, jako swe znajome dawne. Też same widzi sprzęty, też same obicia, Z którymi się zabawiać lubił od powicia, Lecz mniej wielkie, mniej piękne niż się dawniej zdały.",
     "W sadzie, na brzegu niegdyś zarosłym pokrzywą, Był maleńki ogródek ścieżkami porznięty, Pełen bukietów trawy angielskiej i mięty. Drewniany, drobny, w cyfrę powiązany płotek Połyskał się wstążkami jaskrawych stokrotek; Grządki, widać, że były świeżo polewane, Tuż stało wody pełne naczynie blaszane, Ale nigdzie nie widać było ogrodniczki; Tylko co wyszła: jeszcze kołyszą się drzwiczki Świeżo trącone, blisko drzwi ślad widać nóżki Na piasku, bez trzewika była i pończoszki; Na piasku drobnym, suchym, białym na kształt śniegu, Ślad wyraźny, lecz lekki, odgadniesz, że w biegu Chybkim był zostawiony nóżkami drobnemi Od kogoś, co zaledwie dotykał się ziemi.",
