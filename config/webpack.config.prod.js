@@ -16,7 +16,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/,
+                test: /\.(sass|scss)$/,
                 use: [
                     MiniCssExtractPlugin.loader,
                     "css-loader",
@@ -26,6 +26,7 @@ module.exports = {
                             plugins: [require("autoprefixer")],
                         },
                     },
+                    "sass-loader",
                 ],
             },
             {

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.app-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+    padding-left: 4vh;
+    box-shadow: 0 0 2px #444;
+    background-image: url("../images/keyboard.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: $cousine;
+}
+
+.content-wrap {
+    display: flex;
+    flex-basis: 85%;
+    @media (max-width: 1259px) {
+        display: none;
+    }
+    @media (max-height: 699px) {
+        display: none;
+    }
+}

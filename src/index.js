@@ -10,7 +10,7 @@ library.add(faSync, faTimes, faLevelDownAlt, faRedo);
 
 dom.i2svg();
 
-import "./css/index.css";
+import "./sass/index.scss";
 import * as vars from "./tools/Variables";
 import { renderRecords } from "./tools/LoadRecords";
 import { clearStorage } from "./tools/ClearStorage";

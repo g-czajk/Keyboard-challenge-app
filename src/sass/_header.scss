@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    flex-basis: 15%;
+    align-items: center;
+    h1 {
+        font-size: 65px;
+        @media (max-width: 1599px) {
+            font-size: 60px;
+        }
+    }
+
+    @media (max-width: 1259px) {
+        display: none;
+    }
+    @media (max-height: 699px) {
+        display: none;
+    }
+}
